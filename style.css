@@ -42,7 +42,7 @@ main {
 }
 
 #botao_principal {
-    display: fixed;
+
     position: fixed;
     top: 80vh;
     left:50%;
