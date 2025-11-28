@@ -42,7 +42,9 @@ main {
 }
 
 #botao_principal {
-
+    width: 80vw;
+    height: 5vh; 
+    text-align: center;
     position: fixed;
     top: 80vh;
     left:50%;
