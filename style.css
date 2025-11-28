@@ -44,7 +44,7 @@ main {
 #botao_principal {
     display: fixed;
     position: fixed;
-    top: 90vh;
+    top: 80vh;
     left:50%;
     transform: translate(-50%,-10%);
     display:inline-block; 
