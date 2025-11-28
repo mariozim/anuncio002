@@ -1,0 +1,60 @@
+@charset "UTF-8";
+:root {
+    --color1: #1a1a1a;   /* fundo escuro elegante */
+    --color2: #0abfbc;   /* destaque principal / botões */
+    --color3: #87f6ff;   /* detalhes e links */
+    --color4: #f2f2f2;   /* textos claros */
+    --color5: #ffffff;   /* fundo muito claro */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: var(--color2);
+    min-height: 20vh;
+    padding: 5dvh;
+}
+
+header h1{
+    text-align: center;
+    font-size: 45px
+;
+}
+
+main {
+    background-image: url('whatsapp_fundo.jpg');
+    background-attachment: fixed;
+    min-height: 80vh;
+    padding: 2dvh 5dvw;
+}
+
+.msg {
+    font-size:1.2rem;
+    line-height:1.6;
+    background-color: white;
+    padding:15px;
+    border-radius: 20px;
+    margin: 10px 0px ;
+}
+
+#botao_principal {
+    display: fixed;
+    position: fixed;
+    top: 90vh;
+    left:50%;
+    transform: translate(-50%,-10%);
+    display:inline-block; 
+    margin-top:20px; 
+    padding:12px 20px;
+    background:#00c853; 
+    color:white;
+    border-radius:8px; 
+    text-decoration:none; 
+    font-size:1.1rem; 
+    font-weight:bold;
+
+}
