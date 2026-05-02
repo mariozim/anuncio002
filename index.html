@@ -44,13 +44,26 @@
 
 
     </main>
-    <a id="botao_principal" href="https://chat.whatsapp.com/HnHAEotRJlGLjw18eNXgJ6?mode=gi_t" 
-   onclick="event.preventDefault(); fbq('track', 'Lead'); setTimeout(() => { window.location.href = this.href; }, 500);">
+   <a id="botao_principal" href="https://chat.whatsapp.com/HnHAEotRJlGLjw18eNXgJ6?mode=gi_t" 
+   onclick="mandarLead(event, this)">
     <h2>Entrar no grupo agora 🔥</h2>
-    </a>
+</a>
+    <footer></footer>
+    <script>
+    function mandarLead(event, elemento) {
+        event.preventDefault(); // Para o redirecionamento imediato
+        const url = elemento.href;
 
-    <footer>
+        // Dispara o evento de Lead
+        if (typeof fbq !== 'undefined') {
+            fbq('track', 'Lead');
+        }
 
-    </footer>
+        // Espera 500ms (meio segundo) e redireciona
+        setTimeout(function() {
+            window.location.href = url;
+        }, 500);
+    }
+    </script>
 </body>
 </html>
