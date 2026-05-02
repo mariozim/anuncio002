@@ -44,8 +44,9 @@
 
 
     </main>
-    <a id="botao_principal" href="https://chat.whatsapp.com/HnHAEotRJlGLjw18eNXgJ6?mode=gi_t" onclick="fbq('track', 'Lead'); return true;">
-        <h2>Entrar no grupo agora 🔥</h2>
+    <a id="botao_principal" href="https://chat.whatsapp.com/HnHAEotRJlGLjw18eNXgJ6?mode=gi_t" 
+   onclick="event.preventDefault(); fbq('track', 'Lead'); setTimeout(() => { window.location.href = this.href; }, 500);">
+    <h2>Entrar no grupo agora 🔥</h2>
     </a>
 
     <footer>
