@@ -67,7 +67,6 @@ main {
 }
 
 .promocao {
-    display: inline-block;
     margin: auto;
     font-size:0.8rem;
     line-height:1.6;
@@ -77,6 +76,9 @@ main {
     margin: 10px 0px;
 }
 .promocao img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
     border-radius: 5%;
 }
 .promocao p {
