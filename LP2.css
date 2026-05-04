@@ -31,9 +31,9 @@
 }
 
 header {
-    background-color: var(--color2);
-    min-height: 20vh;
-    padding: 5dvh;
+    background-color: #00c853a1;
+    min-height: 10vh;
+    padding: 1dvh;
 }
 
 header h1{
@@ -52,10 +52,35 @@ main {
 .msg {
     font-size:1.2rem;
     line-height:1.6;
+    margin: auto;
     background-color: white;
     padding:15px;
     border-radius: 20px;
     margin: 10px 0px ;
+}
+
+
+#promocoes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.promocao {
+    display: inline-block;
+    margin: auto;
+    font-size:0.8rem;
+    line-height:1.6;
+    background-color: white;
+    padding:4px;
+    border-radius: 20px;
+    margin: 10px 0px;
+}
+.promocao img {
+    border-radius: 5%;
+}
+.promocao p {
+    padding: 5px;
 }
 
 #botao_principal {
@@ -77,5 +102,8 @@ main {
     font-weight:bold;
     animation: pulso 1.5s infinite;
 
+}
+footer {
+    min-height: 8em;
 }
 
