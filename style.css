@@ -60,7 +60,7 @@ header h1{
 }
 
 main {
-    background-image: url('imgs/whatsapp_fundo.jpg');
+    background-image: url('imgs/whatsapp_fundo.webp');
     background-attachment: fixed;
     min-height: 80vh;
     padding: 2dvh 5dvw;
