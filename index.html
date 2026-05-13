@@ -126,64 +126,15 @@
             text-decoration:none; 
             font-size:1.1rem; 
             font-weight:bold;
+            transform: translate(-50%,-10%); 
         
             /* ANIMAÇÃO OTIMIZADA */
-            animation: pulso 1.5s infinite;
+            animation: pulso 1.5s infinite 1s;
             will-change: transform; /* Avisa ao navegador para usar a GPU */
 
         }
         footer {
             min-height: 10em;
-        }
-
-        #formulario_principal {
-            display: block;
-            position: fixed;
-            border: 2px solid black;
-            border-radius: 5%;
-            background-color: white;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            height: 50%;
-            width: 70%;
-
-            padding: 5px;
-            text-align: center;
-            
-        }
-        #formulario_principal p {
-            padding-top: 5vh;
-
-        }
-        #formulario_principal input {
-            height: 5vh;
-            width: 80%;
-
-        }
-
-
-
-        #formulario_principal_fundo {
-                position: fixed;
-            inset: 0;
-
-            background-color: rgba(0,0,0,0.5);
-
-            z-index: 998;
-
-            display: none;
-            justify-content: center;
-            align-items: center;
-        }
-
-        #fechar {
-            border: none;
-            background-color: white;
-            text-align: right;
-            display: block;
-            margin: 0% 94%;
-            height: 5vh;
         }
 
     </style>
