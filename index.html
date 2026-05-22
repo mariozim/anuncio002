@@ -26,6 +26,8 @@
         firstScript.parentNode.insertBefore(script, firstScript);
 
         fbq('init', '1609604343453787');
+        fbq('track', 'PageView');
+
     </script>
     <noscript>
         <img height="1" width="1" style="display:none" 
@@ -153,13 +155,7 @@
             // Agora, mesmo que clique de novo, não entrará no IF
             }
         }
-        let Pageview = false
-        window.onload = function() {
-            if (!Pageview) {
-            // A página acabou de carregar tudo (imagens, scripts, etc)
-            fbq('track', 'PageView');
-            Pageview = true
-        };}
+       
         let sec5 = false
         if (!sec5) {
         window.onload = function () {setTimeout(() => {
